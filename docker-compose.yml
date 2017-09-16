@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  eventmanagement.web:
+    image: eventmanagement.web
+    build:
+      context: ./EventManagement.Web
+      dockerfile: Dockerfile
